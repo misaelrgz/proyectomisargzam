@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ace Search Image</title>
+  <link rel="icon" href="img/asi.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="asi_all">
+    <h1 class="asi_title">buscador de <span>Imagenes</span></h1>
+    <form id="formulario" autocomplete="off">
+      <small></small>
+      <div class="asi_content">
+        <label class="asi_search"></label>
+        <input type="text" class="asi_input_search" spellcheck="false" placeholder="Comienza tu búsqueda" id="termino" />
+
+        <input type="submit" value="Buscar Imágenes" class="asi_btn">   
+      </div>
+    </form>
+  </div>
+
+  <div id="results" class="asi_container"></div> <!-- Container -->
+  <div id="pages" class="asi_pages"></div> <!-- enum pages -->
+
+  <script src="js/asi.js"></script>
+</body>
+</html>
